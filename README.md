@@ -1,2 +1,2 @@
-# -nsider-BitirmeProjesi
+# Insider-BitirmeProjesi
 İnsider Bitirme Projesi
