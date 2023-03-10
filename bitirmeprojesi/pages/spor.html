@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/spor.css">
+    <script src="../js/index.js"></script>
+    <script src="../js/spor.js"></script>
+    <title>Sportify</title>
+</head>
+<body>
+    <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
+    <label for="menu-icon"></label>
+    <nav class="nav"> 		
+        <ul class="pt-5">
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="spor.html" target="_blank">Sporlar</a></li>
+            <li><a href="tarif.html" target="_blank">Tarifler</a></li>
+        </ul>
+    </nav>
+  <header id="head-1">
+      <a href="../pages/index.html"><h2>Sportify</h2></a>
+  </header>
+  <div id="headeralti">
+     <p>Kendine Uygun Sporu Bul</p>
+    </div>
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')">Tümünü göster</button>
+            <button class="btn" onclick="filterSelection('ev')"> Evde Yapılacaklar</button>
+            <button class="btn" onclick="filterSelection('gym')"> Spor Salonu Gerektirenler</button>
+          </div>
+          
+          <div class="container">
+            <div class="filterDiv ev">
+                <main>
+                    <div class='card' id="vucut">
+                      <div class='info'>
+                        <h1 class='title'>Vücut ağırlığı egzersizleri</h1>
+                        <p class='description'>Şınav, mekik, çömelme, lunge, plank, vs.</p>
+                      </div>
+                    </div>
+                  </main>
+            </div>
+            <div class="filterDiv ev">
+                <main>
+                    <div class='card' id="diren">
+                      <div class='info'>
+                        <h1 class='title'>Direnç bandı egzersizleri</h1>
+                        <p class='description'>Direnç bandı kullanarak kollarınızı, bacaklarınızı ve gövdenizi çalıştırabilirsiniz.</p>
+                      </div>
+                    </div>
+                  </main>
+            </div>
+            <div class="filterDiv ev" >
+                <main>
+                    <div class='card' id="yoga">
+                      <div class='info'>
+                        <h1 class='title'>Yoga</h1>
+                        <p class='description'>Yoga, stresi azaltmanıza, esnekliğinizi arttırmanıza ve kas gücünüzü geliştirmenize yardımcı olur.Kardiyo egzersizleri, koşu bandı, eliptik, bisiklet veya koşu yapmak gibi aktiviteleri içerir. Bu egzersizler kalp sağlığınızı artırmaya yardımcı olur.</p>
+                      </div>
+                    </div>
+                  </main>
+            </div>
+            <div class="filterDiv ev">
+                <main>
+                  <div class='card' id="mer">
+                    <div class='info'>
+                      <h1 class='title'>Merdiven Çıkma</h1>
+                      <p class='description'>Merdiven çıkma, kalp sağlığınızı artırmaya ve bacaklarınızı güçlendirmeye yardımcı olur. <p>
+                    </div>
+                  </div>
+                </main>
+            </div>
+            <div class="filterDiv ev">
+              <main>
+                <div class='card' id="pil">
+                  <div class='info'>
+                    <h1 class='title'>Pilates</h1>
+                    <p class='description'>Pilates, çevikliği, dengeyi ve kas gücünü artırmaya yardımcı olur.</p>
+                  </div>
+                </div>
+              </main>
+            </div>
+            <div class="filterDiv gym">
+              <main>
+                <div class='card' id="kardi">
+                  <div class='info'>
+                    <h1 class='title'>Kardiyo</h1>
+                    <p class='description'>Kardiyo egzersizleri, koşu bandı, eliptik, bisiklet veya koşu yapmak gibi aktiviteleri içerir. Bu egzersizler kalp sağlığınızı artırmaya yardımcı olur.<p>
+                  </div>
+                </div>
+              </main>
+            </div>
+            <div class="filterDiv gym">
+              <main>
+                <div class='card' id="agır">
+                  <div class='info'>
+                    <h1 class='title'>Ağırlık antrenmanı</h1>
+                    <p class='description'>Ağırlık antrenmanı, kas gücünüzü ve kütlenizi arttırmaya yardımcı olur. Squat, bench press, deadlift, vs. gibi egzersizler yapabilirsiniz.<p>
+                  </div>
+                </div>
+              </main>
+            </div>
+            <div class="filterDiv gym">
+              <main>
+                <div class='card' id="fonk">
+                  <div class='info'>
+                    <h1 class='title'>Fonksiyonel antrenman</h1>
+                    <p class='description'>Fonksiyonel antrenman, bir dizi hareketi birleştirerek bütün vücudu çalıştırır. Bu egzersizler, koordinasyonunuzu, denge becerinizi ve gücünüzü arttırmaya yardımcı olur.<p>
+                  </div>
+                </div>
+              </main>
+            </div>
+            <div class="filterDiv gym">
+              <main>
+                <div class='card' id="yuz">
+                  <div class='info'>
+                    <h1 class='title'>Yüzme</h1>
+                    <p class='description'>Spor salonları genellikle yüzme havuzlarına da sahiptir. Yüzme, tüm vücudu çalıştırarak kalp sağlığınızı arttırmaya ve stresi azaltmaya yardımcı olur.<p>
+                  </div>
+                </div>
+              </main>
+            </div>
+            
+          </div>
+          
+</body>
+</html>
